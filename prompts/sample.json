@@ -1,0 +1,59 @@
+{
+  "name": "sample",
+  "version": 7,
+  "text": "Generate a concise summary of this demonstration text, focusing specifically on its instructional purpose and meta-characteristics without adding any contextual inferences about its origin or authorship.",
+  "history": [
+    {
+      "version": 1,
+      "text": "Write a concise, structured summary of the following article. Include key points and a one-sentence conclusion.",
+      "author": "system",
+      "timestamp": ""
+    },
+    {
+      "version": 2,
+      "text": "Write a concise, structured summary of the following article. Include key points and a one-sentence conclusion.\nPlease be more specific about structure, include examples and required format.",
+      "author": "auto_optimizer",
+      "timestamp": "2025-09-14T15:36:42.427776Z",
+      "reason": "auto-round-1"
+    },
+    {
+      "version": 3,
+      "text": "Write a concise, structured summary of the following article. Include key points and a one-sentence conclusion.\nPlease be more specific about structure, include examples and required format.\nPlease be more specific about structure, include examples and required format.",
+      "author": "auto_optimizer",
+      "timestamp": "2025-09-14T15:37:11.311445Z",
+      "reason": "auto-round-2"
+    },
+    {
+      "version": 4,
+      "text": "请为下列文章撰写一份简洁且结构化的摘要。摘要必须使用以下标题（按顺序）填写对应内容：**文章标题**、**作者**、**来源**、**核心论点**、**主要支持点**（以项目符号列出）、以及**结论**（一句话）。请使用文中信息完整填充对应字段。",
+      "author": "auto_optimizer",
+      "timestamp": "2025-09-14T15:37:43.975836Z",
+      "reason": "auto-round-3"
+    },
+    {
+      "version": 5,
+      "text": "请为下列文章撰写一份简洁且结构化的摘要。摘要必须使用以下标题（按顺序）填写对应内容：**文章标题**、**作者**、**来源**、**核心论点**、**主要支持点**（以项目符号列出）、以及**结论**（一句话）。请仔细阅读文章内容并从中提取所有相关信息来完整填充每个字段，包括对作者和来源的合理推断。",
+      "author": "auto_optimizer",
+      "timestamp": "2025-09-14T15:40:37.800415Z",
+      "reason": "auto-round-1"
+    },
+    {
+      "version": 6,
+      "text": "For future similar tasks, consider making more specific contextual inferences about author and source based on the article's content and tone, while still clearly indicating these are inferences rather than stated facts.",
+      "author": "auto_optimizer",
+      "timestamp": "2025-09-14T15:41:02.682847Z",
+      "reason": "auto-round-2"
+    },
+    {
+      "version": 7,
+      "text": "Generate a concise summary of this demonstration text, focusing specifically on its instructional purpose and meta-characteristics without adding any contextual inferences about its origin or authorship.",
+      "author": "auto_optimizer",
+      "timestamp": "2025-09-14T15:41:25.869696Z",
+      "reason": "auto-round-3"
+    }
+  ],
+  "meta": {
+    "last_updated": "2025-09-14T15:41:25.869696Z",
+    "author": "auto_optimizer"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "prompt_name": "sample",
+  "student_response": {
+    "text": "Of course. Here is a concise, structured summary of the provided article, following a specific format.\n\n***\n\n### **Article Summary**\n\n**Source:** Provided Sample Article\n\n**1. Core Topic:** The text is a meta-instruction for generating a structured summary, not a standard informational article. It specifies the desired output format and content requirements.\n\n**2. Key Requirements:**\n*   **Structure:** The summary must be organized and not a single paragraph.\n*   **Content:** It must include distinct key points and a one-sentence conclusion.\n*   **Specificity:** The instructions ask for examples and a strict adherence to a required format.\n\n**3. Key Points:**\n*   The user provides a \"sample\" prompt instead of factual article content.\n*   The primary goal is to demonstrate the summarization process itself.\n*   The instructions emphasize precision, structure, and conciseness.\n\n**Conclusion:** This request serves as a demonstration of how to process and summarize instructional content according to strict formatting guidelines.",
+    "raw": {
+      "id": "6e7a61e3-1de3-4748-931f-0f5c3e086002",
+      "object": "chat.completion",
+      "created": 1757864202,
+      "model": "deepseek-chat",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Of course. Here is a concise, structured summary of the provided article, following a specific format.\n\n***\n\n### **Article Summary**\n\n**Source:** Provided Sample Article\n\n**1. Core Topic:** The text is a meta-instruction for generating a structured summary, not a standard informational article. It specifies the desired output format and content requirements.\n\n**2. Key Requirements:**\n*   **Structure:** The summary must be organized and not a single paragraph.\n*   **Content:** It must include distinct key points and a one-sentence conclusion.\n*   **Specificity:** The instructions ask for examples and a strict adherence to a required format.\n\n**3. Key Points:**\n*   The user provides a \"sample\" prompt instead of factual article content.\n*   The primary goal is to demonstrate the summarization process itself.\n*   The instructions emphasize precision, structure, and conciseness.\n\n**Conclusion:** This request serves as a demonstration of how to process and summarize instructional content according to strict formatting guidelines."
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 203,
+        "total_tokens": 258,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 55
+      },
+      "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+    },
+    "usage": {
+      "prompt_tokens": 55,
+      "completion_tokens": 203,
+      "total_tokens": 258,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 55
+    }
+  },
+  "evaluation": {
+    "score": 0,
+    "criteria": {},
+    "feedback": "```json\n{\n    \"score\": 95,\n    \"criteria\": {\n        \"conciseness\": \"Excellent - summary is brief and to the point\",\n        \"structure\": \"Excellent - clear hierarchical organization with headings and sections\",\n        \"key_points\": \"Excellent - accurately identifies all main elements of the instruction\",\n        \"conclusion\": \"Excellent - provides a precise one-sentence conclusion\",\n        \"format_adherence\": \"Excellent - follows requested structure with clear section headers\"\n    },\n    \"feedback\": \"Outstanding summary that perfectly captures the meta-nature of the instructional content. The structure is exceptionally clear with distinct sections for Source, Core Topic, Key Requirements, and Key Points. You correctly identified that this was instructional content about summarization rather than factual article content. The one-sentence conclusion is precise and accurately reflects the demonstration purpose. The formatting with bold headers and bullet points makes the summary highly readable and organized. Minor point: The opening 'Of course. Here is...' could be slightly more concise, but this is negligible.\",\n    \"suggested_prompt\": \"Write a concise, structured summary of the following technical article about quantum computing advancements. Include these specific sections: Research Focus, Key Findings (3-4 bullet points), Technical Applications, and a one-sentence conclusion about future implications. Use ### headers for each section.\"\n}\n```",
+    "suggested_prompt": null,
+    "raw": {
+      "id": "7bd15a39-298c-4354-bbdf-c3ea0a5adab5",
+      "object": "chat.completion",
+      "created": 1757864215,
+      "model": "deepseek-chat",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "```json\n{\n    \"score\": 95,\n    \"criteria\": {\n        \"conciseness\": \"Excellent - summary is brief and to the point\",\n        \"structure\": \"Excellent - clear hierarchical organization with headings and sections\",\n        \"key_points\": \"Excellent - accurately identifies all main elements of the instruction\",\n        \"conclusion\": \"Excellent - provides a precise one-sentence conclusion\",\n        \"format_adherence\": \"Excellent - follows requested structure with clear section headers\"\n    },\n    \"feedback\": \"Outstanding summary that perfectly captures the meta-nature of the instructional content. The structure is exceptionally clear with distinct sections for Source, Core Topic, Key Requirements, and Key Points. You correctly identified that this was instructional content about summarization rather than factual article content. The one-sentence conclusion is precise and accurately reflects the demonstration purpose. The formatting with bold headers and bullet points makes the summary highly readable and organized. Minor point: The opening 'Of course. Here is...' could be slightly more concise, but this is negligible.\",\n    \"suggested_prompt\": \"Write a concise, structured summary of the following technical article about quantum computing advancements. Include these specific sections: Research Focus, Key Findings (3-4 bullet points), Technical Applications, and a one-sentence conclusion about future implications. Use ### headers for each section.\"\n}\n```"
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 314,
+        "completion_tokens": 277,
+        "total_tokens": 591,
+        "prompt_tokens_details": {
+          "cached_tokens": 64
+        },
+        "prompt_cache_hit_tokens": 64,
+        "prompt_cache_miss_tokens": 250
+      },
+      "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+    }
+  },
+  "proposed": {
+    "new_prompt_text": "Write a concise, structured summary of the following article. Include key points and a one-sentence conclusion.\nPlease be more specific about structure, include examples and required format.\nPlease be more specific about structure, include examples and required format.",
+    "change_summary": "Appended clarifying constraints.",
+    "diff": {
+      "added": "\nPlease be more specific about structure, include examples and required format."
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "prompt_name": "sample",
+  "student_response": {
+    "text": "Of course. Here is a concise, structured summary of the provided article, following a specific format.\n\n**Article Title:** [Title of the Article Would Be Here]\n**Author:** [Author's Name Would Be Here]\n**Source:** [Publication Name Would Be Here]\n\n### **Summary**\n\n**1. Core Thesis:** The article's central argument is that clear, specific instructions are crucial for generating accurate and useful responses from AI systems. Vague prompts lead to vague results.\n\n**2. Key Supporting Points:**\n*   **Specificity in Structure:** The requester explicitly asked for a defined structure, moving beyond a simple paragraph to a formatted summary with distinct sections.\n*   **Request for Examples:** The prompt emphasized the need for concrete examples to illustrate the required format, ensuring the output is practical and not just theoretical.\n*   **Clarity of Requirements:** By stating \"Please be more specific about structure\" twice, the prompt highlights that the desired output must be meticulously organized and easy to parse.\n\n**3. Practical Example:** The prompt itself serves as a meta-example, demonstrating how a detailed request (asking for a structured summary with key points and a conclusion) dictates the format of the response it receives.\n\n### **Conclusion**\nThis interaction demonstrates that the quality and structure of an AI's output are directly dependent on the precision and detail provided in the user's initial prompt.",
+    "raw": {
+      "id": "f6256c9f-c6c8-407b-b20d-20b29852edff",
+      "object": "chat.completion",
+      "created": 1757864231,
+      "model": "deepseek-chat",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Of course. Here is a concise, structured summary of the provided article, following a specific format.\n\n**Article Title:** [Title of the Article Would Be Here]\n**Author:** [Author's Name Would Be Here]\n**Source:** [Publication Name Would Be Here]\n\n### **Summary**\n\n**1. Core Thesis:** The article's central argument is that clear, specific instructions are crucial for generating accurate and useful responses from AI systems. Vague prompts lead to vague results.\n\n**2. Key Supporting Points:**\n*   **Specificity in Structure:** The requester explicitly asked for a defined structure, moving beyond a simple paragraph to a formatted summary with distinct sections.\n*   **Request for Examples:** The prompt emphasized the need for concrete examples to illustrate the required format, ensuring the output is practical and not just theoretical.\n*   **Clarity of Requirements:** By stating \"Please be more specific about structure\" twice, the prompt highlights that the desired output must be meticulously organized and easy to parse.\n\n**3. Practical Example:** The prompt itself serves as a meta-example, demonstrating how a detailed request (asking for a structured summary with key points and a conclusion) dictates the format of the response it receives.\n\n### **Conclusion**\nThis interaction demonstrates that the quality and structure of an AI's output are directly dependent on the precision and detail provided in the user's initial prompt."
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 68,
+        "completion_tokens": 277,
+        "total_tokens": 345,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 68
+      },
+      "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+    },
+    "usage": {
+      "prompt_tokens": 68,
+      "completion_tokens": 277,
+      "total_tokens": 345,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 68
+    }
+  },
+  "evaluation": {
+    "score": 95,
+    "criteria": {
+      "Conciseness": "Excellent. The summary is brief yet comprehensive.",
+      "Structure": "Excellent. Uses clear headings and a logical flow (Title/Author/Source, Summary with numbered points, Conclusion).",
+      "Key Points": "Excellent. Accurately identifies the core thesis and supporting arguments from the instruction.",
+      "Conclusion": "Excellent. Provides a perfect one-sentence conclusion that encapsulates the main lesson.",
+      "Formatting": "Excellent. Uses markdown headers and bullet points for easy readability, exactly as implied by the request for structure."
+    },
+    "feedback": "This is an exemplary summary. You perfectly understood the meta-instruction to analyze the prompt itself. The structure is clear and professional, with distinct sections for metadata, the summary's key points, and a strong one-sentence conclusion. All key points are accurately identified and well-supported. The only minor imperfection is the placeholder text for Title/Author/Source, but as the provided 'article' was just a sample instruction, this is a very minor issue.",
+    "suggested_prompt": "Write a concise, structured summary of the following article. The summary must be formatted with the following exact headings: **Article Title**, **Author**, **Source**, **Core Thesis**, **Key Supporting Points** (as a bulleted list), and **Conclusion** (a single sentence). Use the provided text to fill in the respective fields.",
+    "raw": {
+      "id": "36d9a7c4-9acd-4fd9-971b-a0c77719a3ea",
+      "object": "chat.completion",
+      "created": 1757864246,
+      "model": "deepseek-chat",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"score\": 95,\n  \"criteria\": {\n    \"Conciseness\": \"Excellent. The summary is brief yet comprehensive.\",\n    \"Structure\": \"Excellent. Uses clear headings and a logical flow (Title/Author/Source, Summary with numbered points, Conclusion).\",\n    \"Key Points\": \"Excellent. Accurately identifies the core thesis and supporting arguments from the instruction.\",\n    \"Conclusion\": \"Excellent. Provides a perfect one-sentence conclusion that encapsulates the main lesson.\",\n    \"Formatting\": \"Excellent. Uses markdown headers and bullet points for easy readability, exactly as implied by the request for structure.\"\n  },\n  \"feedback\": \"This is an exemplary summary. You perfectly understood the meta-instruction to analyze the prompt itself. The structure is clear and professional, with distinct sections for metadata, the summary's key points, and a strong one-sentence conclusion. All key points are accurately identified and well-supported. The only minor imperfection is the placeholder text for Title/Author/Source, but as the provided 'article' was just a sample instruction, this is a very minor issue.\",\n  \"suggested_prompt\": \"Write a concise, structured summary of the following article. The summary must be formatted with the following exact headings: **Article Title**, **Author**, **Source**, **Core Thesis**, **Key Supporting Points** (as a bulleted list), and **Conclusion** (a single sentence). Use the provided text to fill in the respective fields.\"\n}"
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 401,
+        "completion_tokens": 306,
+        "total_tokens": 707,
+        "prompt_tokens_details": {
+          "cached_tokens": 64
+        },
+        "prompt_cache_hit_tokens": 64,
+        "prompt_cache_miss_tokens": 337
+      },
+      "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+    }
+  },
+  "proposed": {
+    "new_prompt_text": "Write a concise, structured summary of the following article. The summary must be formatted with the following exact headings: **Article Title**, **Author**, **Source**, **Core Thesis**, **Key Supporting Points** (as a bulleted list), and **Conclusion** (a single sentence). Use the provided text to fill in the respective fields.",
+    "change_summary": "Adopted teacher suggested prompt.",
+    "diff": {}
+  }
+}

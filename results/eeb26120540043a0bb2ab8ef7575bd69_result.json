@@ -1,0 +1,32 @@
+{
+  "prompt_name": "sample",
+  "student_response": {
+    "text": "Student output: key points A, B, C.",
+    "raw": {
+      "mock": true,
+      "prompt_len": 150
+    },
+    "usage": {}
+  },
+  "evaluation": {
+    "score": 75,
+    "criteria": {
+      "relevance": 80,
+      "correctness": 70,
+      "conciseness": 75
+    },
+    "feedback": "Good summary.",
+    "suggested_prompt": null,
+    "raw": {
+      "mock": true,
+      "prompt_len": 448
+    }
+  },
+  "proposed": {
+    "new_prompt_text": "Write a concise, structured summary of the following article. Include key points and a one-sentence conclusion.\nPlease be more specific about structure, include examples and required format.",
+    "change_summary": "Appended clarifying constraints.",
+    "diff": {
+      "added": "\nPlease be more specific about structure, include examples and required format."
+    }
+  }
+}

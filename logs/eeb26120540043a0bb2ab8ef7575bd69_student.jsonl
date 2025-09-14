@@ -1,0 +1,1 @@
+{"prompt_name": "sample", "prompt": "Write a concise, structured summary of the following article. Include key points and a one-sentence conclusion.\n\nHere is a short article to summarize.", "response": {"text": "Student output: key points A, B, C.", "raw": {"mock": true, "prompt_len": 150}, "usage": {}}}

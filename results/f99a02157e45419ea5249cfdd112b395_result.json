@@ -1,0 +1,88 @@
+{
+  "prompt_name": "sample",
+  "student_response": {
+    "text": "好的，根据您提供的示例文章内容，以下是一份摘要：\n\n---\n\n**摘要**\n\n该文章内容为一则用于演示目的的示例文本，其核心功能在于展示如何根据预设提示词生成相应的文章摘要。文本本身不包含具体的实质性信息，而是作为一个操作范例，用以指导或测试摘要生成流程。\n\n**关键点：**\n*   **性质：** 示范性文本。\n*   **目的：** 展示摘要生成的过程与结果。\n*   **内容：** 无具体主题或详细信息，仅为示例。\n\n---\n\n请注意，由于提供的示例内容本身是元指令（关于如何操作的说明）而非待总结的实质性文章，因此本摘要主要描述了该示例文本的功能和目的。",
+    "raw": {
+      "id": "b7ad1464-9a65-4e70-9be1-b3cdae255096",
+      "object": "chat.completion",
+      "created": 1757864462,
+      "model": "deepseek-chat",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "好的，根据您提供的示例文章内容，以下是一份摘要：\n\n---\n\n**摘要**\n\n该文章内容为一则用于演示目的的示例文本，其核心功能在于展示如何根据预设提示词生成相应的文章摘要。文本本身不包含具体的实质性信息，而是作为一个操作范例，用以指导或测试摘要生成流程。\n\n**关键点：**\n*   **性质：** 示范性文本。\n*   **目的：** 展示摘要生成的过程与结果。\n*   **内容：** 无具体主题或详细信息，仅为示例。\n\n---\n\n请注意，由于提供的示例内容本身是元指令（关于如何操作的说明）而非待总结的实质性文章，因此本摘要主要描述了该示例文本的功能和目的。"
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 57,
+        "completion_tokens": 147,
+        "total_tokens": 204,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 57
+      },
+      "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+    },
+    "usage": {
+      "prompt_tokens": 57,
+      "completion_tokens": 147,
+      "total_tokens": 204,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 57
+    }
+  },
+  "evaluation": {
+    "score": 85,
+    "criteria": {
+      "accuracy": "Correctly identifies the demonstrative nature of the source material",
+      "completeness": "Covers all key aspects of the sample text's purpose and content",
+      "clarity": "Well-structured and clearly articulated",
+      "inference_handling": "Appropriately avoids unsupported inferences about author/source"
+    },
+    "feedback": "The summary accurately captures the meta-instructional nature of the sample text and correctly identifies its demonstrative purpose. The structure is clear with a main summary section and bullet points highlighting key aspects. You appropriately avoided making unsupported inferences about authorship or source beyond what the text explicitly indicates. For full marks, the summary could have been slightly more concise while maintaining all key information.",
+    "suggested_prompt": "Generate a concise summary of this demonstration text, focusing specifically on its instructional purpose and meta-characteristics without adding any contextual inferences about its origin or authorship.",
+    "raw": {
+      "id": "103620d7-278e-483d-ab75-08d56bbfc955",
+      "object": "chat.completion",
+      "created": 1757864473,
+      "model": "deepseek-chat",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"score\": 85,\n  \"criteria\": {\n    \"accuracy\": \"Correctly identifies the demonstrative nature of the source material\",\n    \"completeness\": \"Covers all key aspects of the sample text's purpose and content\",\n    \"clarity\": \"Well-structured and clearly articulated\",\n    \"inference_handling\": \"Appropriately avoids unsupported inferences about author/source\"\n  },\n  \"feedback\": \"The summary accurately captures the meta-instructional nature of the sample text and correctly identifies its demonstrative purpose. The structure is clear with a main summary section and bullet points highlighting key aspects. You appropriately avoided making unsupported inferences about authorship or source beyond what the text explicitly indicates. For full marks, the summary could have been slightly more concise while maintaining all key information.\",\n  \"suggested_prompt\": \"Generate a concise summary of this demonstration text, focusing specifically on its instructional purpose and meta-characteristics without adding any contextual inferences about its origin or authorship.\"\n}"
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 260,
+        "completion_tokens": 206,
+        "total_tokens": 466,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 260
+      },
+      "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+    }
+  },
+  "proposed": {
+    "new_prompt_text": "Generate a concise summary of this demonstration text, focusing specifically on its instructional purpose and meta-characteristics without adding any contextual inferences about its origin or authorship.",
+    "change_summary": "Adopted teacher suggested prompt.",
+    "diff": {}
+  }
+}

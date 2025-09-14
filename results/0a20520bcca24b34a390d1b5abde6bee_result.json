@@ -1,0 +1,90 @@
+{
+  "prompt_name": "sample",
+  "student_response": {
+    "text": "Based on the provided sample text, here is a concise and structured summary:\n\n**Key Points:**\n*   The content provided is for demonstration purposes only.\n*   The text is identified as an example article.\n*   The request is to generate a summary based on a sample prompt.\n\n**Conclusion:** This is a meta-instruction to produce a summary from placeholder text rather than an actual article.",
+    "raw": {
+      "id": "f4bd4003-33d9-43e7-af03-7e3cf63c1381",
+      "object": "chat.completion",
+      "created": 1757864184,
+      "model": "deepseek-chat",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Based on the provided sample text, here is a concise and structured summary:\n\n**Key Points:**\n*   The content provided is for demonstration purposes only.\n*   The text is identified as an example article.\n*   The request is to generate a summary based on a sample prompt.\n\n**Conclusion:** This is a meta-instruction to produce a summary from placeholder text rather than an actual article."
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 42,
+        "completion_tokens": 79,
+        "total_tokens": 121,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 42
+      },
+      "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+    },
+    "usage": {
+      "prompt_tokens": 42,
+      "completion_tokens": 79,
+      "total_tokens": 121,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 42
+    }
+  },
+  "evaluation": {
+    "score": 95,
+    "criteria": {
+      "Conciseness": "Excellent. The summary is brief and avoids unnecessary details.",
+      "Structure": "Excellent. Uses clear headings for key points and a separate conclusion.",
+      "Key Points": "Excellent. Accurately identifies all three core elements of the provided text.",
+      "Conclusion": "Excellent. The one-sentence conclusion is insightful and accurately interprets the meta-nature of the instruction."
+    },
+    "feedback": "Outstanding work. You perfectly understood the meta-instruction and provided a summary that is both concise and well-structured. The key points are accurately extracted, and the conclusion is a sophisticated, accurate interpretation of the source material's purpose. The formatting with bullet points and bolding is clear and professional.",
+    "suggested_prompt": null,
+    "raw": {
+      "id": "84eef390-9a16-41e1-be43-728a6a143215",
+      "object": "chat.completion",
+      "created": 1757864191,
+      "model": "deepseek-chat",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"score\": 95,\n  \"criteria\": {\n    \"Conciseness\": \"Excellent. The summary is brief and avoids unnecessary details.\",\n    \"Structure\": \"Excellent. Uses clear headings for key points and a separate conclusion.\",\n    \"Key Points\": \"Excellent. Accurately identifies all three core elements of the provided text.\",\n    \"Conclusion\": \"Excellent. The one-sentence conclusion is insightful and accurately interprets the meta-nature of the instruction.\"\n  },\n  \"feedback\": \"Outstanding work. You perfectly understood the meta-instruction and provided a summary that is both concise and well-structured. The key points are accurately extracted, and the conclusion is a sophisticated, accurate interpretation of the source material's purpose. The formatting with bullet points and bolding is clear and professional.\",\n  \"suggested_prompt\": null\n}"
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 177,
+        "completion_tokens": 173,
+        "total_tokens": 350,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 177
+      },
+      "system_fingerprint": "fp_08f168e49b_prod0820_fp8_kvcache"
+    }
+  },
+  "proposed": {
+    "new_prompt_text": "Write a concise, structured summary of the following article. Include key points and a one-sentence conclusion.\nPlease be more specific about structure, include examples and required format.",
+    "change_summary": "Appended clarifying constraints.",
+    "diff": {
+      "added": "\nPlease be more specific about structure, include examples and required format."
+    }
+  }
+}
